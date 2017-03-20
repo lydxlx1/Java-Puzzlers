@@ -10,7 +10,6 @@
 public class Lazy1 {
     private static boolean initialized = false;
 
-
     private static Thread t = new Thread(new Runnable() {
         public void run() {
             initialized = true;
